@@ -22,7 +22,7 @@ describe('strcteq', () => {
       const valueTwo = 6
 
       //call the funciton with the test data
-      const result = strictEquals(valueOne, valueOne)
+      const result = strictEquals(valueOne, valueTwo)
 
       //make assertions about what is true 
       expect(result).to.equal(false)
