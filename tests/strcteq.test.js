@@ -16,7 +16,7 @@ describe('strcteq', () => {
       // make assertions about what is true
       expect(result).to.equal(true)
     })
-    it('returns false if values provided are stricly equal to eachother', () => {
+    it('returns false if values provided are not stricly equal to eachother', () => {
       //create test data
       const valueOne = 's'
       const valueTwo = 6
